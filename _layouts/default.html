@@ -38,10 +38,10 @@
 </div><!-- end banner -->
 
 <div class="wrapper">
-    {% if site.logo %}
-    <img src="{{site.logo | relative_url}}" alt="Logo" />
-    {% endif %}
     <nav>
+        {% if site.logo %}
+        <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
         <ul></ul>
     </nav>
     <section>
